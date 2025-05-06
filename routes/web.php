@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
+use Illuminate\Support\Facades\URL;
 
 Route::get('/', function () {
     return view('welcome');
@@ -21,3 +22,4 @@ Route::middleware('auth')->group(function () {
 Route::resource('todos', TodoController::class);
 
 require __DIR__.'/auth.php';
+ URL::forceScheme('https');
