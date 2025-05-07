@@ -1,11 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\URL;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
-
-URL::forceScheme('https');
 
 Route::get('/', function () {
     return view('welcome');
