@@ -1,17 +1,4 @@
 <x-app-layout>
-    <div class="mx-auto p-10">
-        <div class="flex justify-start">
-            <a href="{{ route('todos.index') }}"
-                class="inline-flex items-center px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-lg shadow-md transition duration-300 ease-in-out">
-                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M9 12h6m-3-3v6m6 4H6a2 2 0 01-2-2V6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v10a2 2 0 01-2 2z"></path>
-                </svg>
-                Go to To-Do List
-            </a>
-        </div>
-    </div>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="p-6">

@@ -34,7 +34,7 @@
             {{ $slot }}
         </main>
     </div>
-    <button id="darkModeToggle" class="fixed bottom-8 right-8 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full p-2 cursor-pointer">
+    <button id="darkModeToggle" class="fixed bottom-8 right-8 bg-gray-600 dark:bg-gray-700 text-yellow-400 dark:text-gray-200 rounded-full p-2 cursor-pointer">
         <x-heroicon-o-sun id="sunIcon" class="w-6 h-6" />
         <x-heroicon-o-moon id="moonIcon" class="w-6 h-6 hidden" />
     </button>
